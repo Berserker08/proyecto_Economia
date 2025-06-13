@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analizador Económico</title>
+</head>
+<body>
+    <h1>Menú de Análisis Económico</h1>
+
+    <h2>Análisis de Demanda y Oferta</h2>
+    <form action="/demanda_oferta" method="post">
+        <label>Precios:</label><br>
+        <input type="text" name="precios" value="10,12,14,16"><br>
+        <label>Demandas:</label><br>
+        <input type="text" name="demanda" value="100,90,80,70"><br>
+        <label>Ofertas:</label><br>
+        <input type="text" name="oferta" value="40,50,60,70"><br>
+        <button type="submit">Analizar</button>
+    </form>
+
+    <hr>
+
+    <h2>Análisis Macroeconómico</h2>
+    <form action="/macroeconomia" method="post">
+        <label>Años:</label><br>
+        <input type="text" name="años" value="2019,2020,2021,2022,2023"><br>
+        <label>PIB:</label><br>
+        <input type="text" name="pib" value="500,480,510,540,570"><br>
+        <label>Inflación:</label><br>
+        <input type="text" name="inflacion" value="3.2,4.1,5.8,7.2,6.5"><br>
+        <label>Desempleo:</label><br>
+        <input type="text" name="desempleo" value="6.0,8.5,7.9,6.8,5.5"><br>
+        <button type="submit">Analizar</button>
+    </form>
+</body>
+</html>
